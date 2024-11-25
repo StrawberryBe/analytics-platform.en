@@ -165,7 +165,7 @@ Currently, the [!DNL Customer Journey Analytics BI extension] is supported and t
 
       1. Paste the **[!UICONTROL **Database**]** parameter from Experience Platform Queries [!UICONTROL Credentials] into the **[!UICONTROL **Database**]** text field.
 
-         Add `%3FFLATTEN` to the **[!UICONTROL **Database**]** parameter, so it reads like `prod:cja%3FFLATTEN` for example. See [Flatten nested data structures for use with third-party BI tools](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) for more information.
+         Add `?FLATTEN` to the **[!UICONTROL **Database**]** parameter, so it reads like `prod:cja?FLATTEN` for example. See [Flatten nested data structures for use with third-party BI tools](https://experienceleague.adobe.com/en/docs/experience-platform/query/key-concepts/flatten-nested-data) for more information.
 
       1. Select **[!UICONTROL **Username and Password**]** from **[!UICONTROL **Authentication**]** list.
 
